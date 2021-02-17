@@ -5,10 +5,15 @@ h1{
 #cabecera{
 	position: absolute;
 	top: 2%;
-	left: 2%;
+	left: 87;
 	height: 10%;
 	width: 93%;
-	background-color: grey;
+	background-color: lightgreen;
+	font-size: 67px;
+line-height: 1;
+letter-spacing: 0.434em;
+font-weight: 400;
+font-style: italic;
 }
 
 #cabecera img {
@@ -23,17 +28,40 @@ h1{
 	left: 30%;
 	height: 65%;
 	width: 75%;
-	background-color: cyan;
-
+	background-color: lightblue;
+    font-size: 19px;
+    line-height: 2;
+    letter-spacing: 0.174em;
+    font-weight: 300;
+    font-style: italic;
 }
-#indice{
-	position: absolute;
-	top: 13%;
-	left: 2%;
-	height: 25%;
-	width: 75%;
-	background-color: pink;
+.vertical-menu {
+  width: 200px;
+  left: 30px;
+  height: 34%;
+	width: 95%;
+}
 
+.vertical-menu a {
+  background-color: white;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+line-height: 1.6;
+letter-spacing: 0.283em;
+font-style: italic;
+}
+
+.vertical-menu a.hover {
+	background-color:lightgreen;
+}
+
+.vertical-menu a.active {
+  background-color: lightgreen;
+  color: white;
+  left: 23%;
 }
 #piedepagina{
 	position: absolute;
@@ -52,3 +80,15 @@ h1{
  background-color: green;
  color:;
  }
+ #Formulario{
+ position: absolute;
+	top: 344;
+	left: 1%;
+	height: 34%;
+	width: 95%;
+	background-color: ;
+	font-size: 11px;
+line-height: 1.4;
+letter-spacing: 0.165em;
+font-style: italic;
+}
