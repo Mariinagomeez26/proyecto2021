@@ -3,23 +3,40 @@
 		<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
 
 	</head>
-	<body>
 
-		<div class="vertical-menu">
-  <a href="#" class="active">Home</a>
-  <a href=otra.html>Inicio</a>
-  <a href=nuevo.html>Sobre mi</a>
-  <a href=”#”>Comparsas</a>
-  <a href=”#”>Chirigotas</a>
-  <a href=”#”>Cuartetos</a>
-  <a href=”#”>Coro</a>
-</div>
-		<div id="cabecera">
-			Bienvenido a la página
-			<img class="original" src="Imagenes/proyecto.png" alt="Carnaval" />
-		</div>
-		<div id="contenido">
-			En esta pagina podreis encontrar todo tipo de cosas sobre el Carnaval.
+</head>
+<body>
+
+    <div id="container">
+        <header><h1>CARNAVAL</h1></header>
+
+        <nav>
+
+            <ul>
+                <li> <a href="otra.html">Inicio</a></li>
+                <li> <a href="nuevo.html">Sobre mi</a></li>
+                <li> <a href="comparsa.html">Comparsa</a></li>
+                <li> <a href="">Blog</a></li>
+                <li> <a href="#contacto">Contacto</a></li>
+
+
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+        <section id="content">
+
+            <article class="article" id="piezas">
+                <h2>COAC</h2>
+
+                <ul>
+                    <li>Preliminares</li>
+                    <li>Cuartos</li>
+                    <li>Semifinales</li>
+                    <li>Final</li>            
+               	</ul>
+
+                <h2>Información sobre Carnaval</h2>
+                <p>En esta pagina podreis encontrar todo tipo de cosas sobre el Carnaval.
 			El carnaval es una fiesta que tiene lugar inmediatamente antes de la cuaresma cristiana (que se inicia con el Miércoles de Ceniza), y que tiene fecha variable (entre febrero y marzo según el año). El carnaval combina elementos tales como disfraces, grupos que cantan coplas, desfiles y fiestas en la calle.
 			En esta página hablaremos desde el COAC hasta el Carnaval en la calle de Cádiz.
 			el concurso se divide en cuatro modalidades:
@@ -30,10 +47,52 @@
 			Despues según la edad estas en:
 			- Infantiles
 			- Juveniles
-			- Adultos
+			- Adultos</p>
+            </article>
+            <article class="article" id="valores">
+                <h2>Premios Comparsa 2017</h2>
 
-		</div>
-		<div id="Formulario"> 
+                    <table>
+                        <tr>
+                        <th>1º Los irracionales</th>
+                        <th>2º La eternidad</th>
+                        </tr>
+
+                        <tr>
+                            <td>3º Los pelegrinos</td>
+                            <td>4º Los equilibristas</td>
+                            <td><img class="original" src="imagenes/proyecto.png" alt="carnaval"></td>
+                            </tr>
+                    </table>
+            </article>
+
+            <article id="contacto"  class="article">
+                <h2>¿Qué es el COAC?</h2>
+                <p>El Concurso oficial de agrupaciones carnavalescas de Cádiz (COAC) se celebra en el Gran Teatro Falla durante un mes, teniendo su final el viernes previo al miércoles de Ceniza, después de diferentes fases clasificatorias. En este concurso toma parte gran número de agrupaciones de toda la geografía andaluza e incluso en los últimos años de otras localidades no andaluzas como Ceuta, Mérida o Herencia (Ciudad Real), Barcelona, Burgos o Santoña (Cantabria) e incluso de fuera de España, como es el caso de una comparsa de Uruguay, en 2020. Éstas agrupaciones participan en diferentes modalidades: coros, comparsas, chirigotas y cuartetos.
+
+Es el concurso de agrupaciones carnavalescas más importante de España y entra dentro del programa oficial del Carnaval de Cádiz como uno de los platos fuertes.
+
+En total, el concurso consta de cuatro fases: Clasificatoria (Preliminares), Cuartos de Final, Semifinales y Final. En cada una de ellas, cada Agrupación tendrá un máximo de 30 minutos de actuación en cada sesión, que comienza a contar desde el inicio de la Presentación hasta el final del Popurrí. </p>
+            </article>
+
+
+        </section>
+
+
+        <aside>
+            <h2>Barra lateral</h2>
+            <form action="https://duckduckgo.com">
+                <input type="text" name="q">
+                <input type="submit" value="Buscar">
+            </form>
+        </aside>
+        <div class="clearfix"></div>
+        <footer>
+                ESPERO QUE OS HAYA GUSTADO
+        </footer>
+
+    </div>
+    <div id="Formulario"> 
 			<form>
   				<p>Tu nombre:</p>
   				<input type="text" name="nombre"/>
@@ -45,6 +104,7 @@
   				<input type="textarea" name="solicitud"/ rows="5" cols="40">
  				<p><input type="submit" value="Enviar"></p>
 			</form>
-		</div>
-	</body>
+	</div>
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ob1Ar6j74W0" allowfullscreen></iframe>
+</body>
 </html>
